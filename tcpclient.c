@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
   char buf[BUFSIZE];
   struct sockaddr_in servaddr;
   if (argc < 3) {
-    printf("Too few arguments \n");
+    printf("Using: --bufsize \"num\" --saddr \"num\" \n");
     exit(1);
   }
 
